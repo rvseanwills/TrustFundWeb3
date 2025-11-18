@@ -6,9 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_mutableOwner",
+						"type": "address"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -22,6 +39,17 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -52,11 +80,11 @@
 	},
 	"sources": {
 		"TrustFund.sol": {
-			"keccak256": "0xe88a7723ab0c0c58afa359c7db187803827ee54faeb365f12d313d9229fd83b8",
+			"keccak256": "0x5d3627729dc009f70df3e68708bc652b528d04dc7312c191e8d44e03f5832f43",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://aaac18b034c4b7ca18f3428026cd307d5f045de12e18ca83f15a2b0a75c9e04f",
-				"dweb:/ipfs/QmeV9DRXSvSmWdneD5WJfyh4Fg9W1QwGidxDizcNFFDD9Y"
+				"bzz-raw://48583bbf594c7d2e3e349e4cd0d90348094ef63c14595999a15979c48d038076",
+				"dweb:/ipfs/QmNj4XBft4yNu2tmAQpLJxiLUdFZJZ2JQXY4h6qo2zCH2n"
 			]
 		}
 	},

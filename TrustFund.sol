@@ -47,7 +47,7 @@ contract TrustFund {
         uint stamp = block.timestamp;
         require (msg.value <= 1, "Value requested over 1.");
         require ((lastWithdraw >= stamp ? lastWithdraw - stamp : stamp - lastWithdraw) <= 1800, "30 Minutes has not elapsed since the last withdraw." ); // basically: Math.Abs(previous, current) <= 30 mins
-        (bool sent, bytes memory data) = msg.sender.call{value: msg.value}("");
+        (bool sent,) = msg.sender.call{value: msg.value}("");
         require(sent, "Failed to send Ether to Owner");
      }
 

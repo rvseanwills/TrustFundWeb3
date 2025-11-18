@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getTotalRecieved",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TrustFund.sol": "TrustFund"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TrustFund.sol": {
+			"keccak256": "0xbbb8f981f6cccd7a58f3cd51a6b71c4c71b5e66637ae7d99baa7b359346edc89",
+			"urls": [
+				"bzz-raw://0704258453e9b9c41568fe507f84c36ca64f55b0e5209c095bebc6ece93a81dd",
+				"dweb:/ipfs/QmPpDA5oSgRH8Mw3zuy3BTefPPfKwytv5wdwsLN14WT3hN"
+			]
+		}
+	},
+	"version": 1
+}

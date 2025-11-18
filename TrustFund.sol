@@ -21,5 +21,15 @@ searchable on Etherscan. (5 marks)
 */
 
 contract TrustFund {
+    uint totalRecieved; 
+    address payable immutable immutableOwner;
+    address payable mutableOwner;
 
+    constructor () {
+        immutableOwner = payable (msg.sender);
+    }
+
+    function getTotalRecieved() view public returns(uint) {
+        return totalRecieved;
+    }
 }

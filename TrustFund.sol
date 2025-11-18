@@ -20,6 +20,9 @@ searchable on Etherscan. (5 marks)
 7. Code quality - it should be well commented, and without obvious security vulnerabilities. (5 marks)
 */
 
+//SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.30;
+
 contract TrustFund {
     uint totalRecieved; 
     address payable immutable immutableOwner;

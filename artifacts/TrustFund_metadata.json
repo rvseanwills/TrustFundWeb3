@@ -52,10 +52,11 @@
 	},
 	"sources": {
 		"TrustFund.sol": {
-			"keccak256": "0xbbb8f981f6cccd7a58f3cd51a6b71c4c71b5e66637ae7d99baa7b359346edc89",
+			"keccak256": "0xe88a7723ab0c0c58afa359c7db187803827ee54faeb365f12d313d9229fd83b8",
+			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://0704258453e9b9c41568fe507f84c36ca64f55b0e5209c095bebc6ece93a81dd",
-				"dweb:/ipfs/QmPpDA5oSgRH8Mw3zuy3BTefPPfKwytv5wdwsLN14WT3hN"
+				"bzz-raw://aaac18b034c4b7ca18f3428026cd307d5f045de12e18ca83f15a2b0a75c9e04f",
+				"dweb:/ipfs/QmeV9DRXSvSmWdneD5WJfyh4Fg9W1QwGidxDizcNFFDD9Y"
 			]
 		}
 	},
